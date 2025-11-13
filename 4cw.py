@@ -1,0 +1,14 @@
+fruit=["Orange","Mango","Plum","Guava"]
+veg=["Potato","Carrot","Cucumber","Brinjal"]
+bever=["juice","Milk","Coffee","Tea"]
+fruit.append("Banana")
+print(fruit)
+veg.insert(1,"Beans")
+print(veg)
+bever.pop()
+print(bever)
+inventory=[fruit,veg,bever]
+print(inventory)
+print(fruit[:2])
+print(fruit[-1])
+print(len(fruit))
